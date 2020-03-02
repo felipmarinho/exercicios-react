@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FamiliaSilva from './componentes/FamiliaSilva';
+import Familia from './componentes/Familia';
+import Membro from './componentes/Membro';
 
 const  elemento = document.getElementById('root');
 ReactDOM.render(
 	<div>
-		<FamiliaSilva />
+		<Familia sobrenome='Lima Marinho'>
+			<Membro nome='Felipe' sobrenome='Marinho' />
+			<Membro nome='Viviane' sobrenome='Lima' />
+		</Familia>
 	</div>
 	, elemento);
