@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Pai from './componentes/Pai';
+import ComponenteClasses from './componentes/ComponenteClasses';
 
 const  elemento = document.getElementById('root');
 ReactDOM.render(
 	<div>
-		<Pai />
+		<ComponenteClasses valor="Sou um componente de classe!"/>
 	</div>
 	, elemento);
