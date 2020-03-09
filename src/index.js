@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Contador from './componentes/Contador';
+import Hook from './componentes/Hook';
 
 const  elemento = document.getElementById('root');
 ReactDOM.render(
 	<div>
-		<Contador numeroInicial={100}/>
+		<Hook />
 	</div>
 	, elemento);
