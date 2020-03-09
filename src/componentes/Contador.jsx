@@ -15,3 +15,6 @@ export default class Contador extends Component {
 		)
 	}
 }
+
+// Temos um problema aqui pois o this na função maisUm() está fazendo referencia
+// ao contexto da função e não da classe.
